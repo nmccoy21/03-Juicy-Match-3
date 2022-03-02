@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/jingles_SAX04.ogg-997995eeb534ab10b548f632171a27fe.oggstr"
+
+[deps]
+
+source_file="res://kenney_musicjingles/Audio/Sax jingles/jingles_SAX04.ogg"
+dest_files=[ "res://.import/jingles_SAX04.ogg-997995eeb534ab10b548f632171a27fe.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

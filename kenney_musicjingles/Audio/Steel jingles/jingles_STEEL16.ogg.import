@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/jingles_STEEL16.ogg-1c6f82f3d2495f5b77e05b8134f453c3.oggstr"
+
+[deps]
+
+source_file="res://kenney_musicjingles/Audio/Steel jingles/jingles_STEEL16.ogg"
+dest_files=[ "res://.import/jingles_STEEL16.ogg-1c6f82f3d2495f5b77e05b8134f453c3.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

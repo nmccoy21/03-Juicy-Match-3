@@ -1,7 +1,9 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://UI/Menu.gd" type="Script" id=1]
 [ext_resource path="res://icon.png" type="Texture" id=2]
+[ext_resource path="res://kenney_musicjingles/Audio/Hit jingles/jingles_HIT11.ogg" type="AudioStream" id=3]
+[ext_resource path="res://UI/Music2.gd" type="Script" id=4]
 
 [sub_resource type="Shader" id=1]
 code = "shader_type canvas_item;
@@ -373,5 +375,11 @@ margin_right = 338.0
 margin_bottom = 602.0
 text = "Quit"
 
+[node name="Music2" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 3 )
+autoplay = true
+script = ExtResource( 4 )
+
 [connection signal="pressed" from="Play" to="." method="_on_Play_pressed"]
 [connection signal="pressed" from="Quit" to="." method="_on_Quit_pressed"]
+[connection signal="finished" from="Music2" to="Music2" method="_on_Music2_finished"]
